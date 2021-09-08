@@ -8,3 +8,5 @@ let dict = str.characters.reduce([:]) { (d, c) -> Dictionary<Character,Int> in
     return d
 }
 print(dict)
+
+//https://stackoverflow.com/questions/34371495/counting-different-characters-in-swift
