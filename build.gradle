@@ -5,7 +5,12 @@ repositories {
 }
 
 dependencies {
+  /*
   testCompile 'junit:junit:4.12'
   compile 'com.google.dagger:dagger:2.0'
   compile 'com.google.dagger:dagger-compiler:2.0'
+  */
+  //Dagger dependencies
+    implementation 'com.google.dagger:dagger:2.15'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.15'
 }
