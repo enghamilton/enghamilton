@@ -1,5 +1,55 @@
 ### Hi there 👋 Remote Sr Engineer@BrazilCountry
 
+<link href="http://fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" type="text/css" />
+<table>
+  <tr>
+    <td style="font-family: Tahoma, sans-serif;"><em>open to work</em> iOS Engineer</td>
+    <th><img src="https://raw.githubusercontent.com/enghamilton/enghamilton/main/swift-logo.png" alt="iOS" height="20" /></th>
+    <th><img src="https://raw.githubusercontent.com/enghamilton/enghamilton/main/iOS.png" alt="iOS" height="20" /></th>
+    <!--  <th><img src="https://raw.githubusercontent.com/enghamilton/enghamilton/main/C-NetCore3.png" alt="DotNetCore" height="20" /></th> -->
+    <th><img src="https://raw.githubusercontent.com/enghamilton/enghamilton/main/android.png" alt="android" height="11" /></th>
+	<!--  <th><img src="https://raw.githubusercontent.com/enghamilton/enghamilton/main/android-logo-version-001.png" alt="android" height="11" /></th>  -->
+    <!--  <th><img src="https://raw.githubusercontent.com/enghamilton/enghamilton/main/java-letter-logo.png" alt="Java" height="16" /></th> -->
+    <!--  <th><img src="https://raw.githubusercontent.com/enghamilton/enghamilton/main/rails.png" alt="RubyOnRails" height="25" /></th>  -->
+  </tr>
+</table>
+<table>
+  <tr>
+    <!-- <img src="https://avatars.githubusercontent.com/u/31168921?v=4" alt="hamilton" width="100" height="100" /> -->
+  </tr>
+  <!--
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/enghamilton/enghamilton/main/whatsapp-1.png" alt="Skype" width="25" height="25" /></td>
+    <td style="font-family: Tahoma, sans-serif;">55 (11) 98181 8153</td>
+  </tr>
+  -->
+  <tr>
+    <td><img src="http://phprestjson.000webhostapp.com/assets/skype-logo.png" alt="Skype" width="25" height="25" /></td>
+    <td style="font-family: Tahoma, sans-serif;">live:hamiltonkamiya  live:b4f8df57d4572b59</td>
+  </tr>
+  <tr>
+    <td><img src="http://phprestjson.000webhostapp.com/assets/zoom-logo.png" alt="Zoom" height="25" /></td>
+    <td style="font-family: Tahoma, sans-serif;">zoom 547 915 0489</td>
+  </tr>
+  <tr>
+    <td><img src="http://phprestjson.000webhostapp.com/assets/google-meet.png" alt="Meet" height="17" /></td>
+    <td style="font-family: Tahoma, sans-serif;"></td>
+  </tr>
+  <tr>
+    <td><img src="http://phprestjson.000webhostapp.com/assets/microsoft-teams.png" alt="Temas" height="20" /></td>
+    <td style="font-family: Tahoma, sans-serif;"></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/enghamilton/enghamilton/main/deaf-logo.png" alt="deaf-surdez-acessibilidade" height="40" /></td>
+    <td style="font-family: Tahoma, sans-serif;">deaf or low hearing disability : video-for-deaf-Libras.mp4</td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/enghamilton/enghamilton/main/blind.png" alt="blind-cego-acessibilidade" height="40" /></td>
+    <td style="font-family: Tahoma, sans-serif;">blind or low acurated vision : jamie-cloudwise.m4a https://voca.ro/1maqLdmufblF (logo image human being guide accompanied by dog service support)</td>
+  </tr>
+</table>
+<!--  <video id="video"  height="250px" controlsList="nodownload" muted playsinline autoplay controls src="C:/Users/pc/Downloads/screenrecording.mp4"></video>   -->
+
 <!--
 **enghamilton/enghamilton** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
