@@ -41,15 +41,15 @@
   </tr>
   <tr>
     <td><img src="https://raw.githubusercontent.com/enghamilton/enghamilton/main/deaf-logo.png" alt="deaf-surdez-acessibilidade" height="40" /></td>
-    <td style="font-family: Tahoma, sans-serif;">deaf or low hearing disability : video-for-deaf-Libras.mp4</td>
+    <td style="font-family: Tahoma, sans-serif;">Acessibilidade surdez ou qualquer dificuldade auditiva : video-para-surdez-libras.mp4</td>
   </tr>
   <tr>
     <td><img src="https://raw.githubusercontent.com/enghamilton/enghamilton/main/blind.png" alt="blind-cego-acessibilidade" height="40" /></td>
-    <td style="font-family: Tahoma, sans-serif;">blind or low acurated vision : jamie-cloudwise.m4a https://voca.ro/1maqLdmufblF (logo image human being guide accompanied by dog service support)</td>
+    <td style="font-family: Tahoma, sans-serif;">Acessibilidade cegos ou qualquer dificuldade visual : https://voca.ro/1icplhvkA9YA (logotipo com ser humano cego com cachorro guia)</td>
   </tr>
 </table>
-<!--  <video id="video"  height="250px" controlsList="nodownload" muted playsinline autoplay controls src="C:/Users/pc/Downloads/screenrecording.mp4"></video>   -->
 
+<video id="video"  height="150px" controlsList="nodownload" muted playsinline autoplay controls src="https://phprestjson.000webhostapp.com/assets/SelfInt
 <!--
 **enghamilton/enghamilton** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
