@@ -1,0 +1,9 @@
+{
+    "name": "gpapp/mvc-php",
+    "description": "gpapp",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
