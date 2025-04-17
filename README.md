@@ -1,5 +1,12 @@
 ### Hi there 👋 Remote Sr Engineer@BrazilCountry
 
+➲ • ↳≌± primeiro (antes de mais nada) eu peço a ti a gentileza (de+a=)da tua(pronome pessoa caso) paciência afim de que não sou fluente no idioma inglês americano EUA.
+➲ • ↳≌± First off I'm not native american english language so i kindly ask you to bear(?) with me.
+➲ • ↳≌± まず第一に(?)、どうか我慢してください、私は 英語母国語 流調査 欠如で 私の 事 に 忍耐 を 我慢してください。
+(mazu daiichi ni, dō ka gaman shite kudasai, watashi wa eigo haha kokugo-ryū chōsa ketsujo de watashi no koto ni nintai o gaman shite kudasai.)
+➲ • ↳≌± No hablo/escríbo inglés de los EE. UU. con fluidez y podrías(?) prestarme un poco de tu paciencia.
+➲ • ↳≌± es tut mir leid , zunächst einmal, können Sie Geduld mit mir haben, weil ich nicht weiß, wie fließend Englisch zu schriben. Bitte kommunizieren(?) Sie auf Englisch, ganz(?) vielen Dank.
+
 <link href="http://fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" type="text/css" />
 <table>
   <tr>
