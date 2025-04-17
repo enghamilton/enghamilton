@@ -1,4 +1,4 @@
-### Hi there 👋 Remote Sr Engineer@BrazilCountry
+### Hi there 👋 Unvetted Remote Sr Engineer@BrazilCountry non-native american english speaker.
 
 ➲ • ↳≌± primeiro (antes de mais nada) eu peço a ti a gentileza (de+a=)da tua(pronome pessoa caso) paciência afim de que não sou fluente no idioma inglês americano EUA.</br>
 ➲ • ↳≌± First off I'm not native american english language so i kindly ask you to bear(?) with me.</br>
