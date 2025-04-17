@@ -1,7 +1,7 @@
 ### Hi there 👋 Unvetted Remote Sr Engineer@BrazilCountry non-native american english speaker.
 
 ➲ • ↳≌± primeiro (antes de mais nada) eu peço gentileza a ti (de+a=)da tua(→ pronome reflexivo 2ª pessoa singular) paciência afim de que não sou fluente no idioma inglês americano EUA.</br>
-➲ • ↳≌± First off I'm not native american english language so i kindly ask you to bear(?) with me.</br>
+➲ • ↳≌± First off I'm not native to write/speaker american english so i kindly ask you to bear(?) with me.</br>
 ➲ • ↳≌± まず第一に(?)、どうか我慢してください、私は 英語母国語 流調査 欠如(?)で 私の 事 に 忍耐(?) を 我慢してください。</br>
 (mazu daiichi ni, dō ka gaman shite kudasai, watashi wa eigo bokokugo-ryūchōsa ketsujo(?) de watashi no koto ni nintai (w)o gaman shite kudasai.)</br>
 ➲ • ↳≌± No hablo/escríbo inglés de los EE. UU. con fluidez y podrías(?) prestarme(?) un poco de tu paciencia.</br>
