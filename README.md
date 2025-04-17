@@ -1,13 +1,13 @@
 ### Hi there 👋 Unvetted Remote Sr Engineer@BrazilCountry non-native american english speaker.
 
-➲ • ↳≌± primeiro (antes de mais nada) eu peço gentileza a ti (de+a=)da tua(→pronome reflexivo 2ª pessoa singular) paciência afim de que não sou fluente no idioma inglês americano EUA.</br>
+➲ • ↳≌± primeiro (antes de mais nada) eu peço gentileza a ti (de+a=)da tua(→ pronome reflexivo 2ª pessoa singular) paciência afim de que não sou fluente no idioma inglês americano EUA.</br>
 ➲ • ↳≌± First off I'm not native american english language so i kindly ask you to bear(?) with me.</br>
 ➲ • ↳≌± まず第一に(?)、どうか我慢してください、私は 英語母国語 流調査 欠如(?)で 私の 事 に 忍耐(?) を 我慢してください。</br>
 (mazu daiichi ni, dō ka gaman shite kudasai, watashi wa eigo bokokugo-ryūchōsa ketsujo(?) de watashi no koto ni nintai (w)o gaman shite kudasai.)</br>
 ➲ • ↳≌± No hablo/escríbo inglés de los EE. UU. con fluidez y podrías(?) prestarme(?) un poco de tu paciencia.</br>
 ➲ • ↳≌± es tut mir leid , zunächst einmal, können Sie Geduld(?) mit mir haben(?), weil ich nicht weiß, wie fließend(?) Englisch zu schriben. Bitte kommunizieren Sie mit mir(?) auf Englisch., ganz(?) vielen Dank.</br>
 
-➲ • ↳≌± eu anotei um ponto de interrogação por causa chamar tua atenção quando não entendo o idioma, a fim de diminuir a barreira da linguagem.</br>
+➲ • ↳≌± eu anotei(→ conjugação 1ª pessoa singular passado simples) um ponto de interrogação por causa chamar tua atenção quando não entendia(→ conjugação 1ª pessoa singular pretérito-imperfeito) o idioma, a fim de diminuir a barreira da linguagem.</br>
 ➲ • ↳≌± i wrote down a question mark to draw attention when i do not grasp the language in order to bridge the gap among the language barrier.</br>
 ➲ • ↳≌± 注目を集めのために、これを書いたときに疑問符を付けたのは、まだその言語を完全に理解していないためであり、言語の壁を減らすための架け橋に順番は。</br>
 (chūmoku wo atsume no tame ni, kore (w)o kaita toki ni gimonfu o tsuketa no wa, mada sono gengo o kanzen ni rikai shite inai tamedeari, gengo no kabe o herasu tame no kakehashi ni junban wa)</br>
