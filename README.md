@@ -11,7 +11,7 @@
 ➲ • ↳≌± i wrote down a question mark to draw attention when i do not grasp the language in order to bridge the gap among the language barrier.</br>
 ➲ • ↳≌± 注目を集めのために、これを書いたときに疑問符を付けたのは、まだその言語を完全に理解していないためであり、言語の壁を減らすための架け橋に順番は。</br>
 (chūmoku wo atsume no tame ni, kore (w)o kaita toki ni gimonfu o tsuketa no wa, mada sono gengo o kanzen ni rikai shite inai tamedeari, gengo no kabe o herasu tame no kakehashi ni junban wa)</br>
-➲ • ↳≌± Escribí un signo de interrogación para llamar la atención cuando no comprendo el idioma y así salvar la barrera del idioma.</br>
+➲ • ↳≌± Escribí un signo de interrogación para llamar la atención cuando no comprendo el idioma y así reducir(?) la barrera del idioma.</br>
 
 <link href="http://fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" type="text/css" />
 <table>
