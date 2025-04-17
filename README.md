@@ -5,7 +5,7 @@
 ➲ • ↳≌± まず第一に(?)、どうか我慢してください、私は 英語母国語 流調査 欠如で 私の 事 に 忍耐 を 我慢してください。</br>
 (mazu daiichi ni, dō ka gaman shite kudasai, watashi wa eigo haha kokugo-ryū chōsa ketsujo de watashi no koto ni nintai o gaman shite kudasai.)</br>
 ➲ • ↳≌± No hablo/escríbo inglés de los EE. UU. con fluidez y podrías(?) prestarme un poco de tu paciencia.</br>
-➲ • ↳≌± es tut mir leid , zunächst einmal, können Sie Geduld mit mir haben, weil ich nicht weiß, wie fließend Englisch zu schriben. Bitte kommunizieren(?) Sie auf Englisch, ganz(?) vielen Dank.</br>
+➲ • ↳≌± es tut mir leid , zunächst einmal, können Sie Geduld mit mir haben, weil ich nicht weiß, wie fließend Englisch zu schriben. Bitte kommunizieren Sie mit mir(?) auf Englisch., ganz(?) vielen Dank.</br>
 
 <link href="http://fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" type="text/css" />
 <table>
