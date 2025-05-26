@@ -37,7 +37,7 @@
   </tr>
   -->
   <tr>
-    <td><img src="http://phprestjson.000webhostapp.com/assets/skype-logo.png" alt="Skype" width="25" height="25" /></td>
+    <td><img src="https://raw.githubusercontent.com/enghamilton/enghamilton/refs/heads/main/skype.png" alt="Skype" width="25" height="25" /></td>
     <td style="font-family: Tahoma, sans-serif;">live:hamiltonkamiya  live:b4f8df57d4572b59</td>
   </tr>
   <tr>
@@ -49,7 +49,7 @@
     <td style="font-family: Tahoma, sans-serif;"></td>
   </tr>
   <tr>
-    <td><img src="http://phprestjson.000webhostapp.com/assets/microsoft-teams.png" alt="Temas" height="20" /></td>
+    <td><img src="http://phprestjson.000webhostapp.com/assets/microsoft-teams.png" alt="MS Team" height="20" /></td>
     <td style="font-family: Tahoma, sans-serif;"></td>
   </tr>
   <tr>
