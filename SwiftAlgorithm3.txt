@@ -1,0 +1,545 @@
+import Foundation
+
+*
+*
+*
+var input:[String] = ["111","222","333","444"]
+var array:[[Int]] = []
+
+for a in 0..<input.count {
+    let ar1 = input[a].map({(ch)->Int in Int(String(ch))!})
+    array.append(ar1)
+}
+
+print(array)
+
+*
+*
+*
+var array:[Int] = [5,2,4,1,7,9]
+var tmp:Int = 0
+
+for i in 0..<array.count {
+    if(i==0){
+        
+    } else {
+        for j in 0..<i {
+            if(array[i] < array[j]){
+                tmp = array[j]
+                array[j] = array[i]
+                array[i] = tmp
+            }
+        }   
+    }
+    print(array)
+}
+
+print(array)
+
+
+
+
+
+
+var array = [[Int]]()
+var r1:[Int] = []
+
+for i in 1...300 {
+    if((i%100) == 0){
+        if((i%3) == 0){
+            r1.append(i)
+            array.append(r1)
+            r1 = []
+        } else {
+            array.append(r1)
+            r1 = []
+        }
+    } else {
+        if((i%3) == 0){
+            r1.append(i)    
+        }
+    }
+}
+
+print(array)
+
+print(array[0].count)
+print(array[1].count)
+print(array[2].count)
+
+
+
+
+var array:[Int] = [45,12,6,7,9,2,5,4,3,17,37]
+var tmp:Int = 0
+
+for i in 0..<array.count {
+    if(i==0){
+        
+    } else {
+        for j in 0..<i {
+            if(array[i]<array[j]){
+                tmp = array[i]
+                array[i] = array[j]
+                array[j] = tmp
+            }
+        }
+    } 
+}
+
+print(array)
+
+for _ in 0..<array.count {
+    if(array[(array.count - 1)] > 8){
+        array.remove(at: (array.count - 1))
+    }
+}
+
+print(array)
+
+
+var array:[String:Int] = ["G":2,"H":5,"I":12,"J":6]
+var result = array.sorted(by: { $0.1 > $1.1 })
+print(result)
+
+
+var array = ["Z":25,"A":3,"B":8,"G":12,"H":4,"C":1]
+var higher:Int = 0
+var result:[String:Int] = [:]
+for (k,v) in array {
+    print(higher)
+    if(v >= higher){
+        print("\(v) >= \(higher)")
+        higher = v
+        result = [:]
+        result[k] = v
+    }
+}
+
+print(result)
+
+
+var vals = [99,1,2,3,4,5]
+var s:Void = vals.sort { (s1,s2) in s1 < s2 }
+print(vals)
+
+
+var array1 = [99,1,2,3,4,5]
+var r1:Void = array1.sort(by: >)
+print( array1 )
+
+
+var numbers:[Int] = [1,2,3,4,5,6,20,22,24,26,28,40,42,44,46]
+    .filter({ $0 % 2 == 0})
+    .sorted(by: { (s1,s2) in s1 > s2})
+//numbers.sort(by: >)    
+print(numbers)
+
+
+
+var input = ["gyg6179jGud9dg0q23fS"]
+var array = input[0].filter({ (n) in n < "A" }).map({ c in Int(String(c)) })
+print((array as! [Int]).sorted(by: { $0 < $1 }))
+
+
+let r1:Optional<Float> = Float?.init(5.6)
+print(r1!)
+
+let r2:Float? = Float.init("6.5")
+print(r2!)
+
+let r3 = Double.init("5.7a")
+print(r3 as Any)
+
+let r4 = String?.init("3.45")
+print(r4!)
+
+let r5 = String.init(3.45)
+print(r5)
+print(type(of: r5))
+
+let r6 = try? String.init()
+let r7 = r6 ?? "default text"
+print("r7: \(r7) .")
+print(type(of: r7))
+
+let r8 = try? String.init(3.46)
+let r9 = r8 ?? "default text"
+print("r9: \(r9) .")
+print(type(of: r9))
+
+
+enum E : Error {
+    case Invalid
+}
+var array:[Int?]? = [1,nil,2,nil]
+if let r1 = array {
+    if let r2 = r1[0] {
+        print(r2 as Any)
+    }
+}
+guard let r1 = array, let r2 = r1[0] else {
+    throw E.Invalid
+}
+print(r2 as Any)
+
+
+
+var input = ["0000","1111","2222","3333"]
+var array:[[Int]] = []
+
+for i in input {
+    var r2:[Int] = [Int]()
+    i.forEach{
+        (chr) in 
+        if let number = Int(String(chr)) {
+            r2.append(number)
+        }
+        return
+    }
+    array.append(r2)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+internal var array:[Int] = [0,1,2,3,3,2,1,0];
+internal var tmp:Swift.Int = Swift.Int();
+internal var check:Swift.Bool = Bool(false);
+
+for i in 0..<array.count {
+    if(i==0){
+        if(i < ((array.count)/2)){
+            if(array[array.count - 1 - i] == array[i]){
+                check = true
+            }
+        }   
+    } else {
+        if((i < ((array.count)/2)) && check){
+            if(array[array.count - 1 - i] == array[i]){
+                
+            } else {
+                check = false;
+                break;
+            }
+        }
+    }
+}
+Swift.print("\(array) check : \(check)");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+internal var array:[Int] = [0,1,2,3,3,2,1,0];
+internal var tmp:Swift.Int = Swift.Int();
+internal var check:Swift.Bool = Bool(false);
+
+for i:Swift.Int in 0..<array.count as Swift.Range<Swift.Int>{
+    if(i==0){
+        if(i < ((array.lazy.count)/2)){
+            if(array[array.lazy.count - 1 - i] == array[i]){
+                check = true
+            }
+        }   
+    } else {
+        if((i < ((array.lazy.count)/2)) && check){
+            if(array[array.lazy.count - 1 - i] == array[i]){
+                
+            } else {
+                check = false;
+                break;
+            }
+        }
+    }
+}
+Swift.print("\(array) check : \(check)");
+
+
+
+
+
+
+
+
+
+
+
+
+import Swift;
+
+internal var array:Swift.Array<Swift.Int> = [90,1,2,3,9,8,7,50];
+internal var tmp:Swift.Int = Swift.Int.init();
+
+for i:Swift.Int in 0..<(main.array.lazy.count) as Swift.Range<Swift.Int> {
+    if((main.array.lazy.count % 2) == 0) {
+        if(i < ((main.array.lazy.count) / 2)){
+            main.tmp = main.array[i];
+            main.array[i] = main.array[(main.array.lazy.count - 1 - i)];
+            main.array[(main.array.lazy.count - 1 - i)] = main.tmp;
+            //print("even \(main.array.lazy.count)")
+            //[90,1,2,3,9,8,7,50]
+            //[50,7,8,9,3,2,1,90]
+        } else {}
+    } else {
+        if(i < ((main.array.lazy.count - 1) / 2)){
+            main.tmp = main.array[i];
+            main.array[i] = main.array[(main.array.lazy.count - 1 - i)];
+            main.array[(main.array.lazy.count - 1 - i)] = main.tmp;
+            //print("odd \(main.array.lazy.count)")
+            //[90,1,2,3,9,8,7]
+            //[7,8,9,3,2,1,90]
+        } else {}
+    }
+}
+
+
+Swift.print(main.array);
+
+
+
+
+
+
+
+
+
+
+
+
+internal var array:[Int] = [0,1,2,3,4,5,6,7] + Swift.CollectionOfOne(8);
+internal let last:Swift.Int = array.count - 1;
+
+for i:Swift.Int in Swift.Int(0)..<array.count as Range<Int>{
+    if(i==0){
+        let index:Swift.Int = .init((array.count - 1))
+        let tmp:Swift.Int = array[i];
+        array[i] = array[index];
+        array[index] = tmp;
+    } else {
+        if(i < (last/2)) {
+            let index:Swift.Int = .init(last - (i))
+            let tmp:Swift.Int = array[i];
+            array[i] = array[index];
+            array[index] = tmp;    
+        }
+    }
+}
+Swift.print(array);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.NASM
+   .start
+Move your hips, EAX
+push EAX, 0x2008
+push EBX, 0x2009
+pop  mic, Taylor
+
+BREAK
+
+Rehearsals-for-BlankSpace-mp3.swift*/
+/*
+pod.ry
+pod instal iPod 
+pod instal iMusic
+*/ /*
+import CoreMusic
+import SoundKit
+*/
+
+var iable = [[" "," "," "," "," "," "," ",2008,2009,2010],[2011,2012,2013," ",2015," ",2018,2019,2020],[2021,2022," "," "," "," "," "," "," "," "]];var
+/* Lyrics :*/ blankSpace =//
+/* Songwritter: Taylor Swift, Max Martin, Johan Shellback
+   Female singer : Taylor    
+   Language: Swift
+   var*/iable;
+var index:UInt8 = UInt8()
+var metaTuple:(betweenYears:String,blankSpaces:Int).Type = (betweenYears:String,blankSpaces:Int).self
+var tuple:(years:String,blankSpaces:Int) = (years:String(),blankSpaces:Int())
+var finalAnswer:Dictionary<String, Int> = Dictionary<String, Int>()
+typealias americanMusicAwards = Array<Array<Any>>
+typealias songwritter = Character
+
+let meFind/*blanks spaces when TaylorSwift hasn't won*/: Void
+    = {
+    (ama:americanMusicAwards)
+    in/* those years */
+    
+    for/*every*/ var/*iable*/ i in 0..<ama.count {
+        for/*every*/ var/*iable*/ j in 0..<ama[i].count {
+            if(i==0){
+                if(j==0){
+                    index = index + 0
+                    index += UInt8.init(-0)
+                    index -= +0
+                    /*func*/tion(ama, i, j)
+                } else {
+                    if(j<ama[i].count){
+                        /*func*/tion(ama, i, j)
+                    } else {
+                        /*func*/tion(ama, i, j)
+                    }
+                }
+            } else {
+                if(i != (ama.count - 1)){
+                    if(j==0){
+                        let year:[Any] = ama[i];
+                        var tmp:Int = Int();
+                        for case let yr as String  in year {
+                            print("blankSpace");
+                            tmp += 1
+                        }
+                        finalAnswer["20\(i)1-20\(i+1)0"] = Int(tmp);
+                    }
+                } else {
+                    if(j==0){
+                        let year:[Any] = ama[i];
+                        var tmp:Int = Int();
+                        for case let yr as String  in year {
+                            print("blankSpace");
+                            tmp += 1
+                        }
+                        finalAnswer["20\(i)1-20\(i+1)0"] = Int(tmp);
+                    }
+                }
+                
+            }
+        }
+    }
+
+}(blankSpace)
+
+/* your Java code
+void*/ func tion(_ args:Array<Array<Any>>,_ args1:Int,_ args2:Int){
+    let ama = args;
+    var i = args1;
+    let j = args2;
+	switch ama[i][j].self {
+        case is String:
+            print("blankSpace")
+                switch j {
+                    case 0:
+                        finalAnswer["200\(i)-20\(i+1)0"] = 1;
+                    default:
+                        finalAnswer["200\(i)-20\(i+1)0"] = Int(j+1);
+                }   
+        case is Int:
+            print(+0000)
+            let years = ama[i][j] as! Int;
+            let yr = String(years);
+            let y = yr.map({$0});
+        default :
+            print("default");
+            break;
+    }
+}
+
+print(finalAnswer)
+print(metaTuple(betweenYears:"2XYZ-2XYW-2",blankSpaces:0))
+
+
+var tuple:(String,Int) = (String(),Int())
+var finded:[(String,Int)]
+finded = Array<(String,Int)>()
+tuple = ("A",0)
+finded += [tuple]
+tuple = ("B",1)
+finded.append(tuple)
+print(finded)
+/*
+Cocoa NSObject
+Garbage collector stuffs under the hood
+finded = nil
+tuple = nil
+[dealloc release];
+kudos to Wozniak  for Integer
+kudos to Gates (Bill)  for Float 
+kudos to Gosling for Java syntax, you've been writting once run everywhere (Present perfect)
+Steve you should learn Assembly, anyway kudos for iPhone
+it's not apple, it's chocolate
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+import Foundation;
+struct Struct:/*Taylor*/Swift.Hashable {
+ internal var year:Swift.UInt16;
+}
+internal let refContiguous:Swift.ContiguousArray<any Sequence<Any>> = [Array(repeating:" ", count:7) + [2008..<2010] + Swift.Array(arrayLiteral:2010) ,[" "," "," "," "," "," "," ",2008,2009,2010],[2011,2012,2013," ",2015," ",2017,2018,2019,2020],[2021,2022," "," "," "," "," "," "," "," "]];
+internal let contiguous:Swift.ContiguousArray<any Sequence<Any>> = [[" "," "," "," "," "," "," ",2008,2009,2010],[2011,2012,2013," ",2015," ",2017,2018,2019,2020],[2021,2022," "," "," "," "," "," "," "," "]];
+internal var dict:Swift.Dictionary<Struct,Foundation.ObjCBool> = [:];
+internal var indexI:Swift.UInt8 = Swift.UInt8();
+internal var indexJ:Swift.UInt8 = Swift.UInt8();
+for i in contiguous {
+ indexI += 1;
+ for j in i {
+ Swift.print(j);
+ indexJ += 1;
+ if case let check = j is String {
+ if check {
+ dict[Struct(year:UInt16(String.init("20\(indexI-UInt8(1))\(indexJ)"))!)] = Foundation.ObjCBool(check);
+ }
+ } else {
+ 
+ }
+ }
+ indexJ = 0;
+}
+Swift.debugPrint(dict, separator:"\n");
+
+
+
+
+
+
+
+
+
+
+
+
