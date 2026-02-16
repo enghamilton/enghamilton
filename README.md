@@ -72,7 +72,7 @@ https://youtu.be/LI9J96rkt5U
 https://youtu.be/4INp5Wu9AvE
 <img src="https://raw.githubusercontent.com/enghamilton/enghamilton/refs/heads/main/recording%20english%20japanese%20espanol%20version%20000.jpg">
 https://youtu.be/4INp5Wu9AvE
-<img src="https://raw.githubusercontent.com/enghamilton/enghamilton/refs/heads/main/recording-vagas-com-version-000.jpg)">
+<img src="https://raw.githubusercontent.com/enghamilton/enghamilton/refs/heads/main/recording-vagas-com-version-000.jpg">
 
 
 <!--
