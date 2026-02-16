@@ -4,7 +4,7 @@
 ➲ • ↳≌± First off I'm not native to write/speaker american english so i kindly ask you to bear(?) with me.</br>
 ➲ • ↳≌± まず第一に(?)、どうか我慢してください、私は 英語母国語 流調査 欠如(?)で 私の 事 に 忍耐(?) を 我慢してください。</br>
 (mazu daiichi ni, dō ka gaman shite kudasai, watashi wa eigo bokokugo-ryūchōsa ketsujo(?) de watashi no koto ni nintai (w)o gaman shite kudasai.)</br>
-➲ • ↳≌± No hablo/escríbo inglés de los EE. UU. con fluidez y podrías(?) prestarme(?) un poco de tu paciencia.</br>
+➲ • ↳≌± No hablo/escríbo inglés de los EE. UU. con fluidez y podrías(?) regalarme(?)|prestarme(?) un poco de tu paciencia.</br>
 ➲ • ↳≌± es tut mir leid , zunächst einmal, können Sie Geduld(?) mit mir haben(?), weil ich nicht weiß, wie fließend(?) Englisch zu schriben. Bitte kommunizieren Sie mit mir(?) auf Englisch., ganz(?) vielen Dank.</br>
 
 ➲ • ↳≌± eu anotei(→ conjugação 1ª pessoa singular passado simples) um ponto de interrogação por causa chamar tua atenção quando não entendia(→ conjugação 1ª pessoa singular pretérito-imperfeito) o idioma, a fim de diminuir a barreira da linguagem.</br>
@@ -73,6 +73,7 @@ https://phprestjson.000webhostapp.com/assets/SelfIntro.mp4
 <img src="https://raw.githubusercontent.com/enghamilton/enghamilton/refs/heads/main/recording%20english%20japanese%20espanol%20version%20000.jpg">https://youtu.be/4INp5Wu9AvE
 <br>
 <img src="https://raw.githubusercontent.com/enghamilton/enghamilton/refs/heads/main/recording-vagas-com-version-000.jpg">https://youtu.be/4INp5Wu9AvE
+<img src+"">https://youtu.be/jC85GJ7efUM
 
 
 <!--
