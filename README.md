@@ -66,10 +66,10 @@ https://phprestjson.000webhostapp.com/assets/SelfIntro.mp4
 <br>https://enghamilton.github.io/elemaq2.github.io/elemaq2_P1_Parte-A_exercicio_resolvido_19ponto4.html
 <br>https://enghamilton.github.io/elemaq2.github.io/hypodgears-epicycloidal.html
 <video id="video"  height="150px" controlsList="nodownload" muted playsinline autoplay controls src="https://youtu.be/LI9J96rkt5U"></video>
-<img src="https://raw.githubusercontent.com/enghamilton/enghamilton/refs/heads/main/cv-2023-youtubbe-english-version-000.jpg">
-<br>https://youtu.be/LI9J96rkt5U
-<img src="https://raw.githubusercontent.com/enghamilton/enghamilton/refs/heads/main/recording%20english%20japanese%20espanol%20version%20000.jpg">
-<br>https://youtu.be/ea7wWBUmmXQ
+<br><img src="https://raw.githubusercontent.com/enghamilton/enghamilton/refs/heads/main/cv-2023-youtubbe-english-version-000.jpg">https://youtu.be/LI9J96rkt5U
+<br><img src="https://i9.ytimg.com/vi/ea7wWBUmmXQ/mqdefault.jpg?sqp=CLDbyswG-oaymwEmCMACELQB8quKqQMa8AEB-AGuCYAC0AWKAgwIABABGFcgYShlMA8=&rs=AOn4CLCc8LJB2cE8uc-BW7MHvgEJ23YKng>https://youtu.be/ea7wWBUmmXQ
+<br><img src="[https://raw.githubusercontent.com/enghamilton/enghamilton/refs/heads/main/recording%20english%20japanese%20espanol%20version%20000.jpg](https://i9.ytimg.com/vi/4INp5Wu9AvE/mqdefault.jpg?sqp=CITZyswG-oaymwEmCMACELQB8quKqQMa8AEB-AGuCYAC0AWKAgwIABABGFggXyhlMA8=&rs=AOn4CLCJwn0gJVNJ9_h8qjLYzPoaIFN5Aw)">https://youtu.be/4INp5Wu9AvE
+
 
 <!--
 **enghamilton/enghamilton** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
