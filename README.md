@@ -41,7 +41,7 @@
     <td style="font-family: Tahoma, sans-serif;">live:hamiltonkamiya  live:b4f8df57d4572b59</td>
   </tr>
   <tr>
-    <td><img src="http://phprestjson.000webhostapp.com/assets/zoom-logo.png" alt="Zoom" height="25" /></td>
+    <td><img src="https://raw.githubusercontent.com/enghamilton/enghamilton/refs/heads/main/zoom-logo.png alt="Zoom" height="25" /></td>
     <td style="font-family: Tahoma, sans-serif;">zoom 547 915 0489</td>
   </tr>
   <tr>
