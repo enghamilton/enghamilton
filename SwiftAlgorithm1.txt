@@ -1,0 +1,1229 @@
+**********************************
+var array = [1,2,6,5,4,3,18,8,0]
+var decrease:Int = 0
+
+for a in 0..<array.count {
+    var tmp = 0
+    for b in (a+1)..<array.count {
+        if(array[a]>array[b]){
+            tmp = array[a]
+            array[a] = array[b]
+            array[b] = tmp
+        }
+    }
+}
+
+print(array)
+
+for _ in 0..<array.count {
+    if(array[(array.count - 1)] > 8){
+        array.remove(at: (array.count - 1))
+    } else {
+        break
+    }
+}
+
+print(array)
+
+for i in 0..<(array.count - 1){
+    if(i==0){
+        for j in 0..<((array.count - 1) - (i)){
+            print("\( (array.count - 1) - (i) ) \( ((array.count - 2) - (j) - (decrease)) )")
+            if( ( array[( (array.count - 1) - (i) )] + array[( ((array.count - 2) - (j) - (decrease)) )] == 8 ) ){
+                let s1 = "array[\((array.count - 1) - (i) )]=\(array[( (array.count - 1) - (i) )])"
+                let s2 = "array[\( ( ((array.count - 2) - (j) - (decrease)) ) )]=\( array[( ((array.count - 2) - (j) - (decrease)) )] )"
+                print("sum of \(s1) + \(s2) = 8")
+            }
+        }
+        decrease += 1
+    } else {
+        for j in 0..<((array.count - 1) - (i)){
+            print("\( (array.count - 1) - (i) ) \( ((array.count - 2) - (j) - (decrease)) )")
+            if( ( array[( (array.count - 1) - (i) )] + array[( ((array.count - 2) - (j) - (decrease)) )] == 8 ) ){
+                let s1 = "array[\((array.count - 1) - (i) )]=\(array[( (array.count - 1) - (i) )])"
+                let s2 = "array[\( ( ((array.count - 2) - (j) - (decrease)) ) )]=\( array[( ((array.count - 2) - (j) - (decrease)) )] )"
+                print("sum of \(s1) + \(s2) = 8")
+            }
+        }
+        decrease += 1
+    }
+}
+
+/*
+[1,2,6,5,4,3,18,8,0]
+
+Find any 2 numbers which sums gives exactly 8
+for example 4 + 4 = 8
+for example 8 + 0 = 8
+for example 7 + 1 = 8
+
+Solution :
+
+sort the array from lower to the higher number
+[1,2,6,5,4,3,18,8,0] -> [0,1,2,3,4,5,6,8,18]
+
+remove higher than 8 [0,1,2,3,4,5,6,8] because (18)+(any_number) already not sum 8
+
+[0,1,2,3,4,5,6,8]
+
+      [0,1,2,3,4,5,6,8]
+index  0,1,2,3,4,5,6,7
+index i=7, sub-index j=6,5,4,3,2,1,0
+8+6
+8+5
+8+4
+...
+8+0=8
+
+index i=6, sub-index j=5,4,3,2,1,0
+6+5
+6+4
+6+3
+...
+6+0
+
+index i=2, sub-index j=1,0
+2+1
+2+0
+
+index i=1, sub-index j=0
+1+0
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+*/
+**********************************
+var array = [1,2,6,5,4,3,18,8,0]
+var decrease:Int = 0
+
+for a in 0..<array.count {
+    var tmp = 0
+    for b in (a+1)..<array.count {
+        if(array[a]>array[b]){
+            tmp = array[a]
+            array[a] = array[b]
+            array[b] = tmp
+        }
+    }
+}
+
+print(array)
+
+for _ in 0..<array.count {
+    if(array[(array.count - 1)] > 8){
+        array.remove(at: (array.count - 1))
+    } else {
+        break
+    }
+}
+
+print(array)
+
+for i in 0..<(array.count - 1){
+    if(i==0){
+        for j in (i+1)..<(array.count){
+            print("\( i )  \(j)  ");
+            if( ( array[i] + array[j] == 10 ) ){
+                let s1 = "array[\( (i) )]=\(array[( (i) )])";
+                let s2 = "array[\( j )]=\( array[( j )] )";
+                print("sum of \(s1) + \(s2) = 10")
+            }
+        }
+    } else {
+        for j in (i+1)..<(array.count){
+            print("\( i )  \(j)  ");
+            if( ( array[i] + array[j] == 8 ) ){
+                let s1 = "array[\( (i) )]=\(array[( (i) )])";
+                let s2 = "array[\( j )]=\( array[( j )] )";
+                print("sum of \(s1) + \(s2) = 8")
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+internal let array:Swift.Array<Swift.Int> = Swift.Array<Swift.Int>(arrayLiteral: 0,0,0,0,0);
+internal var decrease:Swift.UInt8 = Swift.UInt8();
+
+for i:Swift.Int in 0..<(array.lazy.count - 1){
+    for j:Swift.Int in 0..<(array.lazy.count - 1 - Int(decrease)){
+        Swift.print("\(array.lazy.count - 1 - i) \(array.lazy.count - 2 - j - Swift.Int(decrease))");
+    }
+    decrease = decrease + 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+internal let array:Swift.Array<Int> = [0,1,2,3,4,5];
+internal var decrease:Swift.UInt8 = Swift.UInt8();
+
+for i:Swift.Int in 0..<(array.lazy.count){
+    if(i==0){
+        for j:Swift.Int in 1..<(array.lazy.count){
+            Swift.print("\(i) \(j)")
+        }
+        decrease += 1;
+    } else {
+        if(i < (array.count - 1)){
+            for j:Swift.Int in 1..<(array.lazy.count - Swift.Int(decrease)){
+                Swift.print("\(i) \(j + Swift.Int(decrease))")   
+            }
+            decrease += 1;    
+        }
+        
+    }
+}
+decrease = 0;
+Swift.print();
+
+for i:Swift.Int in 0..<(array.lazy.count - 1){
+    for j:Swift.Int in 0..<(array.lazy.count - 1 - Int(decrease)){
+        Swift.print("\(array.lazy.count - 1 - i) \(array.lazy.count - 2 - j - Swift.Int(decrease))");
+    }
+    decrease = decrease + 1;
+}
+decrease = 0;
+
+
+
+
+
+
+
+
+
+
+
+internal let array:Swift.Array<Swift.Int> = [0,1,2,3,4,5,6];
+for i:Swift.Int in 0...(array.lazy.count - 1){
+    if(i==0){
+        for j:Swift.Int in 1...(array.lazy.count - 1){
+            Swift.print("\(i) \(j)");
+        }
+    } else {
+        if(i > 0){
+            if(i < (array.lazy.count - 2)){
+                for j:Swift.Int in (i+1)...(array.lazy.count - 1){
+                    Swift.print("\(i) \(j)");
+                }
+            } else {
+                if(i == (array.lazy.count - 2)){
+                    Swift.print("\(i) \(array.lazy.count - 1)");
+                }
+            }
+        }
+    }
+}
+Swift.debugPrint();
+internal var decrease:Swift.UInt8 = Swift.UInt8();
+for i:Swift.Int in 0..<(array.lazy.count - 1){
+    for j:Swift.Int in 0..<(array.lazy.count - 1 - Int(decrease)){
+        Swift.print("\(array.lazy.count - 1 - i) \(array.lazy.count - 2 - j - Swift.Int(decrease))");
+    }
+    decrease = decrease + 1;
+}
+decrease = 0;
+
+
+
+
+
+
+
+
+
+internal let array:Swift.Array<Swift.Int> = [0,1,2,3,4,5,6,7,8];
+internal var tmp:Swift.UInt8 = Swift.UInt8();
+
+for i:Swift.Int in 0..<(array.lazy.count - 1){
+    if(i==0){
+        for j:Swift.Int in 1...(array.lazy.count - 1){
+            Swift.print("\(i) \(j)");
+        }
+        tmp = tmp + 1;
+    } else {
+        for j:Swift.Int in (i + 1)...(array.lazy.count - 1){
+            Swift.print("\(i) \(j)");   
+        }
+        tmp += 1;
+    }
+}
+tmp = Swift.UInt8(0);
+Swift.print();
+Swift.print();
+
+for i:Swift.Int in 0...(array.lazy.count - 1){
+    if(i==0){
+        for j:Swift.Int in 0...(array.lazy.count - 2){
+            Swift.print("\(array.count - 1 - i) \(array.lazy.count - 2 - j)")
+        }
+        tmp = tmp + 1;
+    } else {
+        if(i>1){
+            for j:Swift.Int in 0...(array.lazy.count - 2 - Swift.Int(tmp)) {
+                Swift.print("\(array.lazy.count - 1 - Swift.Int(tmp)) \(array.lazy.count - 2 - j - Swift.Int(tmp))");
+            }
+            tmp = tmp + 1;  
+        }
+    }
+}
+tmp = Swift.UInt8(0);
+
+
+
+
+
+
+
+
+
+
+
+
+internal let array:[Swift.Int] = [0,1,2,3,4] + [5,6,7,8] + CollectionOfOne(9);
+internal var decrement:Swift.Int = Swift.Int(0);
+
+for i in 0..<(array.lazy.count - 1){
+    if(i==0){
+        for j in 0..<(array.lazy.count - 1 - decrement){
+            Swift.print("\(array.count - 1 - i) \(array.count - 2 - j)");
+        }   
+    } else {
+        for j in 0..<(array.lazy.count - 1 - decrement){
+            Swift.print("\(array.lazy.count - 1 - i) \(array.lazy.count - 2 - j - decrement)");
+        }   
+    }
+    decrement += Int(1);
+    Swift.print(" ");
+}
+/*
+	[0,1,2,3,4]
+*/
+
+
+
+
+
+
+
+
+
+
+internal let array:[Int] = [0,1,2,3,4,5];
+internal let range:Swift.Range<Int> = 0..<(array.count - 1) as Swift.Range<Swift.Int>;
+internal var decrease:Swift.Int = Int();
+
+func f(_ d:Swift.Int)->Swift.Range<Int>{
+    let range:Swift.Range<Int> = 0..<(array.count - 1 - decrease);
+    return range;
+}
+
+for i in range {
+    for j:Swift.Int in f(decrease) as Swift.Range<Int> {
+        Swift.print("\( array.count - 1 - i) \(array.count - 2 - j - decrease) ", terminator:" ");
+    }
+    decrease += Swift.Int(1);
+    Swift.print(";");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+internal let array:any Collection<Swift.UInt8> = [0,0,0,0] + Swift.Set<UInt8>(minimumCapacity:0) + CollectionOfOne(0) as Array<UInt8>;
+internal var decrease:Swift.UInt8 = UInt8();
+    //[0,0,0,0,0]
+    // 0 1 2 3 4
+for i:Swift.UInt8 in UInt8(0)..<(UInt8(array.count) - UInt8(1)) as Range<UInt8> { // 0 1 2 3
+    for j:Swift.UInt8 in UInt8(0)..<(UInt8(array.count) - UInt8(1) - decrease) as Range<UInt8>{
+    //i is equal 0 j goes 0 1 2 3
+    //i is equal 1 j goes 0 1 2
+    //i is equal 2 j goes 0 1 
+    //finally i is equal 3 j goes 0
+    Swift.print("\(UInt8(array.count) - UInt8(1) - i) \(UInt8(array.count) - UInt8(2) - j - decrease)")
+    }
+    decrease += Swift.UInt8(1);
+    Swift.print(" ");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var array = [1,2,6,5,4,3,18,8,0]
+var decrease:Int = 0
+
+for a in 0..<array.count {
+    var tmp = 0
+    for b in (a+1)..<array.count {
+        if(array[a]>array[b]){
+            tmp = array[a]
+            array[a] = array[b]
+            array[b] = tmp
+        }
+    }
+}
+
+print(array)
+
+for _ in 0..<array.count {
+    if(array[(array.count - 1)] > 8){
+        array.remove(at: (array.count - 1))
+    } else {
+        break
+    }
+}
+
+print(array)
+
+print("Less Efficiency Solution but accurated")
+print("Higher to Lower")
+for i in 0..<(array.count - 1){
+    if(i==0){
+        for j in 0..<((array.count - 1) - (i)){
+            print("\( (array.count - 1) - (i) ) \( ((array.count - 2) - (j) - (decrease)) )")
+            if( ( array[( (array.count - 1) - (i) )] + array[( ((array.count - 2) - (j) - (decrease)) )] == 8 ) ){
+                let s1 = "array[\((array.count - 1) - (i) )]=\(array[( (array.count - 1) - (i) )])"
+                let s2 = "array[\( ( ((array.count - 2) - (j) - (decrease)) ) )]=\( array[( ((array.count - 2) - (j) - (decrease)) )] )"
+                print("sum of \(s1) + \(s2) = 8")
+            }
+        }
+        decrease += 1
+    } else {
+        for j in 0..<((array.count - 1) - (i)){
+            print("\( (array.count - 1) - (i) ) \( ((array.count - 2) - (j) - (decrease)) )")
+            if( ( array[( (array.count - 1) - (i) )] + array[( ((array.count - 2) - (j) - (decrease)) )] == 8 ) ){
+                let s1 = "array[\((array.count - 1) - (i) )]=\(array[( (array.count - 1) - (i) )])"
+                let s2 = "array[\( ( ((array.count - 2) - (j) - (decrease)) ) )]=\( array[( ((array.count - 2) - (j) - (decrease)) )] )"
+                print("sum of \(s1) + \(s2) = 8")
+            }
+        }
+        decrease += 1
+    }
+}
+print("Less Efficiency Solution but accurated")
+print("Lower to Higher")
+for i in 0..<(array.count - 1){
+    for j in (i+1)..<(array.count){
+        print("\(i) \(j)")
+        if( ( array[i] + array[j] == 8 ) ){
+            let s1 = "array[\(i)]=\(array[i])"
+            let s2 = "array[\(j)]=\(array[j])"
+            print("sum of \(s1) + \(s2) = 8")
+        }
+    }
+}
+
+print("Probably a More Efficiency Solution and also accurated")
+print(array)
+var low = 0
+var hi = (array.count - 1)
+
+for _ in 0..<array.count {
+    
+    if(low != hi){
+    
+        if(array[low]+array[hi] == 8){
+            print("\(array[low]) + \(array[hi]) = \(array[low]+array[hi]) -> finded 8")
+            //break
+            hi -= 1
+        } else {
+            if(array[low]+array[hi] > 8){
+                print("\(array[hi]) + \(array[low]) = \(array[low]+array[hi])")
+                hi -= 1
+            } else {
+                print("\(array[low]) + \(array[hi]) = \(array[low]+array[hi])")
+                low += 1
+            }
+        }
+        
+    }
+    
+}
+
+/*
+
+
+Overview Solution
+
+    Sum two number in array, for example [1,2,6,5,4,3,18,8,0]
+    The sum must be 8 exactly
+    
+    Can sum equal number
+    For Example : 4 + 4 = 8
+    
+    Can sum different number
+    For Example : 5 + 3 = 8
+    For Example : 3 + 5 = 8
+    For Example : 8 + 0 = 8
+    For Example : 0 + 8 = 8
+    For Example : 7 + 1 = 8
+    For Example : 1 + 7 = 8
+    
+
+    Sort array from lower value to higher value [1,2,6,5,4,3,18,8,0]
+    [0,1,2,3,4,5,6,8,18]
+    
+    Removing higher values than 8
+    Because any number > 8, for example 9 + 0 = 9 never sum 8
+
+Overview Solution
+
+
+          [1,2,6,5,4,3,18,8,0]
+index i is 0,1,2,3,4,5,6 ,7,8   array.count is 9 elements
+
+a=0 for
+loop b= from (0+1)=1 to 8
+[1,2,6,5,4,3,18,8,0] -> [1,2,6,5,4,3,18,8,0]
+ ^ ^
+[1,2,6,5,4,3,18,8,0] -> [1,2,6,5,4,3,18,8,0]
+ ^   ^
+[1,2,6,5,4,3,18,8,0] -> [1,2,6,5,4,3,18,8,0]
+ ^     ^
+[1,2,6,5,4,3,18,8,0] -> [1,2,6,5,4,3,18,8,0]
+ ^       ^
+[1,2,6,5,4,3,18,8,0] -> [1,2,6,5,4,3,18,8,0]
+ ^         ^
+[1,2,6,5,4,3,18,8,0] -> [1,2,6,5,4,3,18,8,0]
+ ^           ^
+[1,2,6,5,4,3,18,8,0] -> [1,2,6,5,4,3,18,8,0]
+ ^              ^
+[1,2,6,5,4,3,18,8,0] -> [0,2,6,5,4,3,18,8,1]  1 > 0
+ ^                ^
+ 
+ 
+i=1
+for loop b= from (1+1)=2 to 8
+[0,2,6,5,4,3,18,8,1] -> [0,2,6,5,4,3,18,8,1]
+   ^ ^
+[0,2,6,5,4,3,18,8,1] -> [0,2,6,5,4,3,18,8,1]
+   ^   ^
+[0,2,6,5,4,3,18,8,1] -> [0,2,6,5,4,3,18,8,1]
+   ^     ^
+[0,2,6,5,4,3,18,8,1] -> [0,2,6,5,4,3,18,8,1]
+   ^       ^
+[0,2,6,5,4,3,18,8,1] -> [0,2,6,5,4,3,18,8,1]
+   ^         ^
+[0,2,6,5,4,3,18,8,1] -> [0,2,6,5,4,3,18,8,1]
+   ^            ^
+[0,2,6,5,4,3,18,8,1] -> [0,1,6,5,4,3,18,8,2]  2 > 1 
+   ^              ^
+   
+i=2
+for loop b= from (2+1)=3 to 8
+[0,1,6,5,4,3,18,8,2] -> [0,1,5,6,4,3,18,8,2]  6 > 5
+     ^ ^
+[0,1,5,6,4,3,18,8,2] -> [0,1,4,6,5,3,18,8,2]  5 > 4
+     ^   ^
+[0,1,4,6,5,3,18,8,2] -> [0,1,3,6,5,4,18,8,2]  4 > 3
+     ^     ^
+[0,1,3,6,5,4,18,8,2] -> [0,1,3,6,5,4,18,8,2]
+     ^       ^
+[0,1,3,6,5,4,18,8,2] -> [0,1,3,6,5,4,18,8,2]
+     ^          ^
+[0,1,3,6,5,4,18,8,2] -> [0,1,2,6,5,4,18,8,3]  3 > 2
+     ^            ^
+
+i=3
+for loop b= from 1 to 8
+[0,1,2,6,5,4,18,8,3] -> [0,1,2,5,6,4,18,8,3]  6 > 5
+       ^ ^
+[0,1,2,5,6,4,18,8,3] -> [0,1,2,4,6,5,18,8,3]  5 > 4
+       ^   ^
+[0,1,2,4,6,5,18,8,3] -> [0,1,2,4,6,5,18,8,3]
+       ^     ^
+[0,1,2,4,6,5,18,8,3] -> [0,1,2,4,6,5,18,8,3]
+       ^        ^
+[0,1,2,4,6,5,18,8,3] -> [0,1,2,3,6,5,18,8,4]  4 > 3
+       ^          ^
+
+i=4
+for loop b= from 5 to 8
+[0,1,2,3,6,5,18,8,4] -> [0,1,2,3,5,6,18,8,4]  6 > 5
+         ^ ^
+[0,1,2,3,5,6,18,8,4] -> [0,1,2,3,5,6,18,8,4] 
+         ^   ^
+[0,1,2,3,5,6,18,8,4] -> [0,1,2,3,5,6,18,8,4] 
+         ^      ^
+[0,1,2,3,5,6,18,8,4] -> [0,1,2,3,4,6,18,8,5]  5 > 4 
+         ^        ^
+
+i=5
+for loop b= from 6 to 8
+[0,1,2,3,4,6,18,8,5] -> [0,1,2,3,4,6,18,8,5]  
+           ^ ^
+[0,1,2,3,4,6,18,8,5] -> [0,1,2,3,4,6,18,8,5]  
+           ^    ^
+[0,1,2,3,4,6,18,8,5] -> [0,1,2,3,4,5,18,8,6]  6 > 5
+           ^      ^
+
+i=6
+for loop b= from 7 to 8
+[0,1,2,3,4,5,18,8,6] -> [0,1,2,3,4,5,8,18,6] 18 > 8
+             ^  ^
+[0,1,2,3,4,5,8,18,6] -> [0,1,2,3,4,5,6,18,8] 8 > 6
+             ^    ^
+
+i=7
+for loop b= 8
+[0,1,2,3,4,5,6,18,8] -> [0,1,2,3,4,5,6,8,18]
+               ^  ^
+
+
+
+Algorithm 1 overview explanation
+        array[7]+array[6]
+        array[7]+array[5]
+        array[7]+array[4]
+        array[7]+array[3]
+        array[7]+array[2]
+        array[7]+array[1]
+        array[7]+array[0] = 8 + 0 = 8
+        
+        array[6]+array[5]
+        array[6]+array[4]
+        array[6]+array[3]
+        array[6]+array[2] = 6 + 2 = 8
+        array[6]+array[1]
+        array[6]+array[0]
+        
+        array[5]+array[4]
+        array[5]+array[3] = 5 + 3 = 8
+        array[5]+array[2]
+        array[5]+array[1]
+        array[5]+array[0]
+        
+        array[4]+array[3]
+        array[4]+array[2]
+        array[4]+array[1]
+        array[4]+array[0]
+        
+        array[3]+array[2]
+        array[3]+array[1]
+        array[3]+array[0]
+        
+        array[2]+array[1]
+        array[2]+array[0]
+        
+        array[1]+array[0]
+        
+
+Algorithm 2 overview explanation
+        
+        start with low=0
+        [0,1,2,3,4,5,6,8]     ***8+0 = 8 (then high move one step to very first left)
+         ^             ^
+         low           high
+        [0,1,2,3,4,5,6,8]     6+0 = 6 low moves to very first right element 
+         ^           ^
+         low         high
+        [0,1,2,3,4,5,6,8]     6+1 = 7 low moves to very first right element 
+           ^         ^
+           low       high
+        [0,1,2,3,4,5,6,8]     ***6+2 = 8 high move one step to very first left
+             ^       ^
+             low     high
+        [0,1,2,3,4,5,6,8]     5+2 = 7 low moves to very first right element
+             ^     ^
+             low   high
+        [0,1,2,3,4,5,6,8]     ***5+3 = 8 high move one step to very first left
+               ^   ^
+             low   high
+        [0,1,2,3,4,5,6,8]     4+3 = 7 low moves to very first right element (but it is over)
+               ^ ^
+             low high
+        
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var array = [2,4,6,7]
+var result = false
+var decrease:Int = 1
+
+print("     \(array)")
+print("index 0, 1, 2, 3")
+
+for i in 0..<(array.count - 1){
+    if(i==0){
+        for j in 0..<((array.count - 1) - (i)){
+            //print("\(i) \(j)")
+            print("\( (array.count - 1) - (i) ) \( (array.count - 2) - (j) )")
+            
+        }
+    } else {
+        for j in 0..<((array.count - 1) - (i)){
+            //print("\(i) \(j)")
+            print("\( (array.count - 1) - (i) ) \( (array.count - 2) - (j) - (decrease) )")
+            
+        }
+        decrease += 1
+    }
+}
+
+print(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Given am array sum two numbers and that sum must be closest or even equal to 20.
+for example : [13,15,3,4,5,8,1] 15+5 =20
+
+code challenge
+*/
+var array = [13,15,3,4,5,8,1]
+var sum1:Int = 0
+var sum2:Int = 0
+var sum = 0
+
+for i in 0..<array.count {
+    for j in 0..<i {
+        if( ((array[i]+array[j]) <= 20) && ((array[i]+array[j]) > sum)){
+            sum1 = array[i]
+            sum2 = array[j]
+            sum = (array[i]+array[j])
+        }
+    }
+    for k in (i+1)..<array.count {
+        if( ((array[i]+array[k]) <= 20) && ((array[i]+array[k]) > sum)){
+            sum1 = array[i]
+            sum2 = array[k]
+            sum = (array[i]+array[k])
+        }
+    }
+}
+
+print("\(sum1) + \(sum2) = \(sum) which is more closer or even equal 20")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Find two numbers in a array and sum it to result number 13
+array is always sorted from lower to higher number
+
+	1,2,4,9,13,15
+	^          ^
+	15 + 1 = 16
+
+	1,2,4,9,13,15
+	^       ^
+	13 + 1 = 14
+
+	1,2,4,9,13,15
+	^     ^
+	9 + 1 = 10
+
+	1,2,4,9,13,15
+	  ^   ^
+	9 + 2 = 11
+
+	1,2,4,9,13,15
+	    ^ ^
+	9 + 4 = 13
+
+
+*/
+var array = [1,2,4,9,13,15]
+var low = 0
+var hi = (array.count - 1)
+
+for _ in 0..<array.count {
+    if(array[low]+array[hi] == 13){
+        print("\(array[low]) + \(array[hi]) = \(array[low]+array[hi])")
+        break
+        
+    } else {
+        if(array[low]+array[hi] > 13){
+            print("\(array[hi]) + \(array[low]) = \(array[low]+array[hi])")
+            hi -= 1
+        } else {
+            print("\(array[low]) + \(array[hi]) = \(array[low]+array[hi])")
+            low += 1
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FindSquare
+var array = [[0,0,0,0,0,0],[0,0,0,0,0,0],[0,1,1,1,0,0],[0,1,0,1,0,0],[0,1,1,1,0,0]]
+/*
+    test cases :
+    [1,1,1,0,0,0],[1,0,1,0,0,0],[1,1,1,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0]
+
+    [0,0,1,1,1,0],[0,0,1,0,1,0],[0,0,1,1,1,0],[0,0,0,0,0,0],[0,0,0,0,0,0]
+
+    [0,0,1,1,1,1],[0,0,1,0,0,1],[0,0,1,0,0,1],[0,0,1,1,1,1],[0,0,0,0,0,0]
+
+    [0,0,0,0,0,0],[1,1,1,0,0,0],[1,0,1,0,0,0],[1,1,1,0,0,0],[0,0,0,0,0,0]
+    
+    [0,0,0,0,0,0],[0,1,1,1,0,0],[0,1,0,1,0,0],[0,1,1,1,0,0],[0,0,0,0,0,0]
+    
+    [0,0,0,0,0,0],[0,0,0,1,1,1],[0,0,0,1,0,1],[0,0,0,1,1,1],[0,0,0,0,0,0]
+
+    [0,0,0,0,0,0],[0,0,0,1,1,1],[0,0,0,1,0,1],[0,0,0,1,1,1],[0,0,0,0,0,0]
+
+    [0,1,1,1,1,0],[0,1,0,0,1,0],[0,1,0,0,1,0],[0,1,0,0,1,0],[0,1,1,1,1,0]
+
+    [0,0,0,0,0,0],[0,0,0,0,0,0],[1,1,1,0,0,0],[1,0,1,0,0,0],[1,1,1,0,0,0]
+
+    [0,0,0,0,0,0],[0,0,0,0,0,0],[0,1,1,1,0,0],[0,1,0,1,0,0],[0,1,1,1,0,0]
+    
+    [0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,1,1,1],[0,0,0,1,0,1],[0,0,0,1,1,1]
+*/
+
+/*
+    [0,0,0,0,0,0]
+    [0,0,0,0,0,0]
+    [0,0,0,0,0,0]
+    [0,0,0,0,0,0]
+    [0,0,0,0,0,0]
+*/
+
+var topLeftCorner:Bool = false
+var tLC:(Int,Int)->Bool = {
+    (_ i:Int, _ j:Int)->Bool  in 
+    if((array[i][j] == 1) && (array[i+1][j] == 1) && (array[i][j+1] == 1)){
+        topLeftCorner = true
+    }
+    return topLeftCorner
+}
+
+var topRightCorner:Bool = false
+var tRC = {
+    (_ i:Int, _ j:Int)->Bool  in 
+    if((array[i][j] == 1) && (array[i+1][j] == 1) && (array[i][j-1] == 1)){
+        topRightCorner = true
+    }
+    return topRightCorner
+}
+
+var bottomLeftCorner:Bool = false
+var bLC = {
+    (_ i:Int, _ j:Int)->Bool  in 
+    if((array[i][j] == 1) && (array[i-1][j] == 1) && (array[i][j+1] == 1)){
+        bottomLeftCorner = true
+    }
+    return bottomLeftCorner
+}
+
+var bottomRightCorner:Bool = false
+var bRC = {
+    (_ i:Int, _ j:Int)->Bool  in 
+    if((array[i][j] == 1) && (array[i-1][j] == 1) && (array[i][j-1] == 1)){
+        bottomRightCorner = true
+    }
+    return bottomRightCorner
+}
+
+
+var topLeft = false
+var topRight = false
+var bottomLeft = false
+var bottomRight = false
+
+for i in 0..<array.count {
+    for j in 0..<array[i].count {
+        if(i==0){
+            if(j==0){
+                topLeft  = tLC(i, j)
+            } else {
+                topLeft  = tLC(i, j)
+                
+                if(topLeft == true){
+                    topRight = tRC(i, j)
+                }
+            }
+        } else {
+            
+            if(i < (array.count - 1)){
+                if(j==0){
+                    topLeft  = tLC(i, j)
+                } else {
+                    if(j < (array[i].count - 1)){
+                        
+                        topLeft  = tLC(i, j)
+                    
+                        if(topLeft == true){
+                            topRight = tRC(i, j)
+                        }
+                        
+                        if(topRight == true){
+                            bottomLeft = bLC(i, j)
+                        }
+                        
+                        if(bottomLeft == true){
+                            bottomRight = bRC(i, j)
+                        }
+                        
+                    } else {
+                        
+                    }
+                }
+            } else {
+                
+                if(j==0){
+                    bottomLeft = bLC(i, j)
+                } else {
+                    bottomLeft = bLC(i, j)
+                    
+                    if(bottomLeft == true){
+                        bottomRight = bRC(i, j)
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+print(topLeft, topRight, bottomLeft, bottomRight)
+
+
+
+
+/*
+
+ [[1,1,1,0,0,0],[1,0,1,0,0,0],[1,1,1,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0]]
+
+    [1,1,1,0,0,0]
+    [1,0,1,0,0,0]
+    [1,1,1,0,0,0]
+    [0,0,0,0,0,0]
+    [0,0,0,0,0,0]
+*/
+
+/*
+
+    [0,0,1,1,1,0],[0,0,1,0,1,0],[0,0,1,1,1,0],[0,0,0,0,0,0],[0,0,0,0,0,0]
+    
+    
+    [0,0,1,1,1,0]
+    [0,0,1,0,1,0]
+    [0,0,1,1,1,0]
+    [0,0,0,0,0,0]
+    [0,0,0,0,0,0]
+*/
+
+/*
+
+    [0,0,1,1,1,1],[0,0,1,0,0,1],[0,0,1,0,0,1],[0,0,1,1,1,1],[0,0,0,0,0,0]
+
+    [0,0,1,1,1,1]
+    [0,0,1,0,0,1]
+    [0,0,1,0,0,1]
+    [0,0,1,1,1,1]
+    [0,0,0,0,0,0]
+*/
+
+/*
+    [0,0,0,0,0,0],[1,1,1,0,0,0],[1,0,1,0,0,0],[1,1,1,0,0,0],[0,0,0,0,0,0]
+    
+    [0,0,0,0,0,0]
+    [1,1,1,0,0,0]
+    [1,0,1,0,0,0]
+    [1,1,1,0,0,0]
+    [0,0,0,0,0,0]
+*/
+
+
+/*
+    [0,0,0,0,0,0],[0,1,1,1,0,0],[0,1,0,1,0,0],[0,1,1,1,0,0],[0,0,0,0,0,0]
+    
+    [0,0,0,0,0,0]
+    [0,1,1,1,0,0]
+    [0,1,0,1,0,0]
+    [0,1,1,1,0,0]
+    [0,0,0,0,0,0]
+*/
+
+/*
+    [0,0,0,0,0,0],[0,0,0,1,1,1],[0,0,0,1,0,1],[0,0,0,1,1,1],[0,0,0,0,0,0]
+
+    [0,0,0,0,0,0]
+    [0,0,0,1,1,1]
+    [0,0,0,1,0,1]
+    [0,0,0,1,1,1]
+    [0,0,0,0,0,0]
+*/
+
+/*
+    [0,0,0,0,0,0],[0,0,0,1,1,1],[0,0,0,1,0,1],[0,0,0,1,1,1],[0,0,0,0,0,0]
+    
+    [0,0,0,0,0,0]
+    [0,0,0,1,1,1]
+    [0,0,0,1,0,1]
+    [0,0,0,1,1,1]
+    [0,0,0,0,0,0]
+*/
+
+/*
+    [0,1,1,1,1,0],[0,1,0,0,1,0],[0,1,0,0,1,0],[0,1,0,0,1,0],[0,1,1,1,1,0]
+    
+    [0,1,1,1,1,0]
+    [0,1,0,0,1,0]
+    [0,1,0,0,1,0]
+    [0,1,0,0,1,0]
+    [0,1,1,1,1,0]
+*/
+
+/*
+    [0,0,0,0,0,0],[0,0,0,0,0,0],[1,1,1,0,0,0],[1,0,1,0,0,0],[1,1,1,0,0,0]
+    
+    [0,0,0,0,0,0]
+    [0,0,0,0,0,0]
+    [1,1,1,0,0,0]
+    [1,0,1,0,0,0]
+    [1,1,1,0,0,0]
+*/
+
+/*
+    [0,0,0,0,0,0],[0,0,0,0,0,0],[0,1,1,1,0,0],[0,1,0,1,0,0],[0,1,1,1,0,0]
+    
+    [0,0,0,0,0,0]
+    [0,0,0,0,0,0]
+    [0,1,1,1,0,0]
+    [0,1,0,1,0,0]
+    [0,1,1,1,0,0]
+*/
+
+/*
+    [0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,1,1,1],[0,0,0,1,0,1],[0,0,0,1,1,1]
+     
+    [0,0,0,0,0,0]
+    [0,0,0,0,0,0]
+    [0,0,0,1,1,1]
+    [0,0,0,1,0,1]
+    [0,0,0,1,1,1]
+*/
+
+/*
+    [0,0,0,0,0,0]
+    [0,0,0,0,0,0]
+    [0,0,0,0,0,0]
+    [0,0,0,0,0,0]
+    [0,0,0,0,0,0]
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Given am array sum two numbers and that sum must be closest or even equal to 20.
+for example : [13,15,3,4,5,8,1] 15+5 =20
+
+code challenge
+*/
+var array = [13,15,3,4,5,8,1]
+var sum1:Int = 0
+var sum2:Int = 0
+var sum = 0
+
+for i in 0..<array.count {
+    for j in 0..<i {
+        if( ((array[i]+array[j]) <= 20) && ((array[i]+array[j]) > sum)){
+            sum1 = array[i]
+            sum2 = array[j]
+            sum = (array[i]+array[j])
+        }
+    }
+    for k in (i+1)..<array.count {
+        if( ((array[i]+array[k]) <= 20) && ((array[i]+array[k]) > sum)){
+            sum1 = array[i]
+            sum2 = array[k]
+            sum = (array[i]+array[k])
+        }
+    }
+}
+
+print("\(sum1) + \(sum2) = \(sum) which is more closer or even equal 20")
+
+
+
+*
+*
+*
+Sort from lower to higher
+var array:[Int] = [5,2,4,1,7,9]
+var tmp:Int = 0
+
+for i in 0..<array.count {
+    if(i==0){
+        
+    } else {
+        for j in 0..<i {
+            if(array[i] < array[j]){
+                tmp = array[j]
+                array[j] = array[i]
+                array[i] = tmp
+            }
+        }   
+    }
+    print(array)
+}
+
+print(array) //[1,2,4,5,7,9]
+*
+*
+*
+
+
+
+
+
+
+*
+*
+* Sort from lower to higher
+var array:[Int] = [5,4,1,2,7,3,14,6]
+var tmp = 0
+
+for i in 0..<array.count {
+    for j in 0..<i {
+        if(array[i] < array[j]){
+            tmp = array[i]
+            array[i] = array[j]
+            array[j] = tmp
+        }
+    }
+}
+
+print(array)
+*
+*
+*

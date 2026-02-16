@@ -1,0 +1,902 @@
+https://applicants.bairesdev.com/spoken-english/5803081
+
+
+https://youtu.be/_qORRlkzu-Y (3:25min eng-US)
+ 
+https://www.linkedin.com/posts/hamilton-kamiya-061a1923_activity-6848704486039404544-FdsA 
+https://voca.ro/1icplhvkA9YA (pt-BR, portuguese blind message)
+eu demoro para responder,
+gentileza, fique tranquila para rejeitar ou aceitar quando for conveniente !
+Java.mp4
+https://drive.google.com/file/d/1_WC3t_shTyDrjk-TpU1sMjlizmxZvGx1/view?usp=sharing
+
+SwiftSum.mp4
+https://drive.google.com/file/d/1N9lUiJU15dEQSRtuhyMB8LmPJQMyYZIM/view?usp=sharing
+
+SwiftSum8.webm
+https://drive.google.com/file/d/126SCHE8YsT-mS-RC1E4ANee2EPCErRrB/view?usp=sharing
+
+SwiftArray2D.mp4
+https://drive.google.com/file/d/1V55e_cRX9lrg5HxzKcDiATWthtDydiDC/view?usp=sharing
+
+SwiftPath
+https://drive.google.com/file/d/1ptzCpImXjYjwPlV6qlfpX0e186sgQfen/view?usp=sharing
+
+SwiftTuringHowManyRooms.mp4
+https://drive.google.com/file/d/1JPFKqeuEftTTvlogLPvgclg2qkQCwTRn/view?usp=sharing
+
+ObjectiveCArray2D.mp4
+https://drive.google.com/file/d/1dwuYXZea90NtAec7rVF2Tjwei87x1d4d/view?usp=sharing
+
+ObjectiveCArray2d.webm
+https://drive.google.com/file/d/1NJ7xLCv8ShbkNQMXtSvxT7VFoSM0eSwD/view?usp=sharing 
+
+ObjectiveCArrayPart1.mp4
+https://drive.google.com/file/d/1Tc1Tl4pODKWQO0hLk00tD9YflAOovJPX/view?usp=sharing
+
+
+𝗛𝗮𝗺𝗶𝗹𝘁𝗼𝗻 𝗞𝗮𝗺𝗶𝘆𝗮 ✓ 
+𝒆𝒏𝒈𝒆𝒏𝒉𝒆𝒊𝒓𝒐
+𝙴𝚗𝚐𝚎𝚗𝚑𝚎𝚒𝚛𝚘 | 𝙴𝚗𝚐𝚒𝚗𝚎𝚎𝚛
+𝗢𝗯𝗷𝗲𝗰𝘁𝗶𝘃𝗲 𝗖 | Swift 𝗶𝗢𝗦 (watchOS)
+Java SDK 𝗔𝗻𝗱𝗿𝗼𝗶𝗱 engineer | C#.𝗡𝗲𝘁
+⌚︎ Time Zone: South America/Sao Paulo - Brazil country
+
+n.º ✆ 55 (11) 99928 3277
+
+
+
+
+
+var array = [1,0,0,0,0,1,1,0,1,0,0,1,0,0,0,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,0,1,1]
+var finded:Bool = false         //global scope
+var tmpResult:Int = Int.init()  //global scope
+var result:Int = 0              //global scope
+
+for i in 0..<(array.count - 1){
+    if(array[i] == array[i+1] && array[i] == 1){
+        if(finded==false){
+            tmpResult = 2
+            finded = true
+        } else {
+            tmpResult += 1
+            if(tmpResult>result){
+                result = tmpResult
+            }
+        }
+    } else {
+        if((array[i] == 1) && (array[i] != array[i+1])){
+            //do nothing bitch, love you, kidding !
+        } else {
+            if(array[i] == 0){
+                finded = false
+                tmpResult = 0
+            }    
+        }
+        
+        
+    }
+}
+
+print(result)
+
+
+
+
+
+
+
+
+
+
+
+var array = [2,4,6,7]
+var result = false
+var decrease:Int = 1
+
+for i in 0..<(array.count - 1){
+    if(i==0){
+        for j in 0..<((array.count - 1) - (i)){
+            //print("\(i) \(j)")
+            print("\( (array.count - 1) - (i) ) \( (array.count - 2) - (j) )")
+            
+        }
+    } else {
+        for j in 0..<((array.count - 1) - (i)){
+            //print("\(i) \(j)")
+            print("\( (array.count - 1) - (i) ) \( (array.count - 2) - (j) - (decrease) )")
+            
+        }
+        decrease += 1
+    }
+}
+
+print(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var array:[[Int]] = [[1,2,3,4],[12,13,14 ,5],[11,16,15 ,6],[10, 9, 8,7]]
+let matrix = ((array[0].count) * (array.count))
+var result = Array(repeating:0, count:matrix)
+var r1 = [Int].init()
+
+for i in 1...16 {
+    r1.append(i)
+}
+print(r1)
+
+for i in 0..<array.count {
+    for j in 0..<array[i].count {
+        if(i==0){
+            result[j] = array[i][j]
+        } else {
+            if(i==1){
+                if(j==0){
+                    
+                } else {
+                    if(j != (array[i].count - 1)){
+                        
+                    } else {
+                        result[(array[i].count - 1) + 1] = array[i][j]
+                    }
+                }
+            } else {
+                if(i != (array.count - 1)){
+                    if(j==0){
+                        
+                    } else {
+                        if(j != (array[i].count - 1)){
+                            
+                        } else {
+                            let index = ((array[i].count) + (i) - (1))
+                            result[index] = array[i][j]
+                        }
+                    }
+                } else {
+                    if(j==0){
+                        let index = ((array[i].count)+(array.count - 2)+((array[i].count ) - 1))
+                        result[index] = array[i][j]
+                    } else {
+                        if(j != (array[i].count - 1)){
+                            let index = ((array[i].count)+(array.count - 2)+((array[i].count ) - (j + 1)))
+                            result[index] = array[i][j]
+                        } else {
+                            let index = ((array[i].count)+(array.count - 2)+((array[i].count ) - 1) - j)
+                            result[index] = array[i][j]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+print(result)
+
+/*
+    0 [ 1, 2, 3]
+    1 [10,11, 4]
+    2 [ 9,12, 5]
+    3 [ 8, 7, 6]
+*/
+
+/*
+    0 [ 1, 2, 3, 4]
+    1 [12,13,14 ,5]
+    2 [11,16,15 ,6]
+    3 [10, 9, 8, 7]
+*/
+
+/*
+    0 [ 1, 2, 3, 4]
+    1 [14,15,16 ,5]
+    2 [13,20,17 ,6]
+    3 [12,19,18, 7]
+    4 [11,10, 9, 8]
+*/
+
+/*
+    0 [ 1, 2, 3, 4, 5]
+    1 [16,17,18,19, 6]
+    2 [15,24,25 20, 7]
+    3 [14,23,22,21, 8]
+    4 [13,12,11,10, 9]
+*/
+
+/*
+    0 [ 1, 2, 3, 4, 5]
+    1 [18,19,20,21, 6]
+    2 [17,28,29 22, 7]
+    3 [16,27,30,23, 8]
+    4 [15,26,25,24, 9]
+    5 [14,13,12,11,10]
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+func spiralTraverse(_ matrix:[[Int]])->[Int] {
+    guard !matrix.isEmpty else {
+        return []
+    }
+    var result:[Int] = [Int]()
+    let total = matrix[0].count * matrix.count
+    
+    var lefter = 0
+    var top = 0
+    var righter = matrix[0].count - 1
+    var bottom = matrix.count - 1
+    
+    while (result.count < total) {
+        
+        //go left to right
+        for col in stride(from: lefter,through: righter, by:1){
+            result.append(matrix[top][col])
+        }
+        //go top bottom
+        for row in stride(from: top+1,through: bottom, by:1){
+            result.append(matrix[row][righter])
+        }
+        //go right to left
+        
+        //go bottom top
+        
+        lefter += 1
+        top += 1
+        righter -= 1
+        bottom -= 1
+    }
+    
+    return result
+}
+
+
+
+let matrix:[[Int]] = [[1, 2, 3, 4],[12,13,14,5],[11,16,15,6],[10, 9, 8,7]]
+/*
+    [1, 2, 3, 4]
+    [12,13,14,5]
+    [11,16,15,6]
+    [10, 9, 8,7]
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var array:[Int] = []
+for var i in 0..<100 where (i%2 == 0){
+    i=i+1 
+    array.append(i)
+}
+
+print(array.count)
+
+
+
+
+
+
+var array:[String:Int] = ["G":2,"H":5,"I":12,"J":6]
+var result = array.sorted(by: { $0.1 > $1.1 })
+print(result)
+
+
+var array = ["Z":25,"A":3,"B":8,"G":12,"H":4,"C":1] 
+var higher:Int = 0
+var result:[String:Int] = [:]
+for (key,value) in array {
+    print(higher)
+    if(value >= higher){
+        print("\(value) >= \(higher)")
+        higher = value
+        result = [:]
+        result[key] = value
+    }
+}
+print(result)
+
+var r1 = [Int].init()
+for (_, value) in result {
+    r1.append(value)
+}
+print(r1[0])
+
+var r2 = try? [Int].init()
+for (_, value) in array {
+    r2?.append(value)
+}
+print(r2 as Any)
+
+
+
+
+
+let i8:UInt8 = 123
+let i16:UInt16 = 12345
+let i32:UInt32 = 1234567891
+print(type(of: i16))
+
+
+
+
+var input = ["AAAAAA9x8x7x6x5x4x3x2x1aaaaaa"]
+var array = input[0].filter({ (n) in n < "A" }).map({ c in Int(String(c)) })
+print((array as! [Int]).sorted(by: { $0 < $1 }))
+
+
+
+var input:[String] = ["zxcAv56n34m5m6m9AACAAAAxzAAa"]
+var array:[String] = input[0].map({ String($0)}).sorted(by : { $0 < $1})
+var result:[String:Int] = [:]
+var finded:Bool = false
+var counter:Int = 0
+
+for i in 0..<(array.count - 1){
+    if(array[i] == array[i+1]){
+        if(counter == 0){
+            counter = 2
+            result[array[i]] = counter
+        } else {
+            finded = true
+            counter += 1
+            result[array[i]] = counter  
+        }
+    } else {
+        finded = false
+        counter = 0
+    }
+}
+
+let r1 = result.sorted(by: { $0.value > $1.value })
+//var r1 = array.sorted(by: { (s1,s2) in  s1.value > s2.value })
+print(array)
+print(result)
+print("\(r1)    \(r1.first?.key)    \(r1.first!.value)")
+
+
+
+var array:[String:Int] = ["A":5,"B":2,"C":15]
+var r1 = array.sorted(by: { (s1,s2) in  s1.value > s2.value })
+print(r1)
+
+
+
+
+var array:[String:Float] = ["A":2.0,"B":3.0,"C":1,"D":0.76]
+let r1 = array.sorted(by:{ (s1,s2)->Bool in return s1.value > s2.value })
+print("Letter \(r1[0].key) is most repeated by \(r1[0].value) times")
+
+
+
+
+
+var array = [1,0,0,0,0,1,1,0,1,0,0,1,0,0,0,1,1,1,0,0,1,1,1,1,1,1,1,1,0,1,1,0,1]
+var finded:Bool = false         //global scope
+var tmpResult:Int = Int.init()  //global scope
+var result:Int = 0              //global scope
+
+for i in 0..<(array.count - 1){
+    if(array[i] == array[i+1] && array[i] == 1){
+        if(finded==false){
+            tmpResult = 2
+            finded = true
+        } else {
+            tmpResult += 1
+            if(tmpResult>result){
+                result = tmpResult
+            }
+        }
+    } else {
+        if(array[i] == 0){
+            finded = false
+            tmpResult = 0
+        }
+    }
+}
+
+print(result)
+
+
+
+
+
+
+
+let array:[String] = ["ASgBbsga98hsu7s5sfs4s2aAAAAAAAjauas"]
+let r1:[String] = array[0].map({ (ch) in String(ch) })
+    .filter({ (x)->Bool in x > "9" })
+    .sorted(by:{ (x,y)->Bool in return x < y })
+
+var r2:[String] = []
+for i in r1 {
+    if(i == i.uppercased()){
+        r2.append(i)
+    }
+}
+
+var r3:[String] = r1
+for _ in 0..<r3.count {
+    if(r3[(r3.count - 1)] != r3[(r3.count - 1)].uppercased()){
+        r3.remove(at: (r3.count - 1))
+    }
+}
+print(array)
+print(r1)
+print(r2)
+print(r3)
+
+
+
+
+var input:[String] = ["a1B2c3D4e5F6g7"]
+var array:[String] = []
+var r1:() = input[0].forEach {
+    (char) in 
+    array.append(String(char))
+}
+
+print(array)
+print(type(of: array))
+
+
+
+
+
+var numbers:[Int?] = [1, 2, 3, nil, nil, nil]
+print(numbers)
+if(numbers.count != 4){
+   numbers[0...2] = [0]
+} else {
+    numbers[3] = 4
+}
+print(numbers as Any)
+
+if(numbers.count != 4){
+   numbers[0...2] = [0]
+} else {
+    numbers[3] = 4
+}
+print(numbers as Any)
+
+
+
+
+
+enum E : Error {
+    case Invalid
+}
+var array:[Int?]? = [1,nil,2,nil]
+if let r1 = array {
+    if let r2 = r1[0] {
+        print(r2 as Any)
+    }
+}
+guard let r1 = array, let r2 = r1[0] else {
+    throw E.Invalid
+}
+print(r2 as Any)
+
+
+
+
+var dic: [[Double?]?:Optional<String>]? = [[1, 1.2]:nil, [2.1,2.2]:"A", nil:nil]
+var op:String? = "B"
+var op1:String? = nil
+dic?[Optional([3.2,3.3])] = op
+dic?[Optional([4.2,4.3])] = Optional("E")
+dic?[Optional([5.1,5.2])] = nil
+dic?[Optional([6.1,6.2])] = Optional(nil)
+dic?[Optional([7.1,7.2])] = op1
+print(dic?.keys as Any)
+print(dic?.values as Any)
+print(" \n")
+print(dic!.keys as Any)
+print(dic!.values as Any)
+print(" \n")
+print(dic as Any)
+
+
+
+
+var dic: [[Int?]?:Optional<String>]! = [[1,1]:nil, [2,2]:"A", nil:nil]
+var op:String! = "B"
+dic[Optional([3,3])] = op
+dic[Optional([4,4])] = Optional("E")
+dic[Optional([4,4])] = Optional("E")
+print(dic as Any)
+
+
+
+
+var dic:[String:Int?]? = ["A":2, "D":nil]
+dic?["B"] = Int.init("")
+print(dic as Any)
+
+
+
+
+
+
+
+
+
+var input:[String] = ["100101111"]
+var r1 = input[0]
+    .map({ 
+        (ch)->Int in 
+        guard let number = Int(String.init(ch)) else {
+            return 0
+        }
+        return number
+    })
+print(r1)//[1, 0, 0, 1, 0, 1, 1, 1, 1]
+let array:[Int] = r1
+let c:Int = array.count
+var finded:Bool = false
+var tmp:Int = 0
+var result:Int = 0
+for i in 0..<(c - 1) {
+    if(array[i] == array[i+1] && array[i] == 0){
+        if(finded == false){
+            tmp = 2
+            finded = true
+            if(tmp > result){
+                result = tmp
+            }
+        } else {
+            tmp += 1
+            if(tmp > result){
+                result = tmp
+            }
+        }
+    } else {
+        finded = false
+        tmp = 0
+    }
+}
+print(result)//2
+print(finded)//false
+
+
+
+
+
+
+
+
+var input:[String?]? = ["1001A1111"]
+var r1 = input?[0]?
+    .map({ 
+        (ch)->Int in 
+        guard let number = Int(String.init(ch)) else {
+            return 0
+        }
+        return number
+    })
+print(r1 as Any)//Optional([1, 0, 0, 0, 1, 0, 0, 1, 0, 1])
+let array:[Int?] = r1!
+let c:Int = array.count
+var finded:Bool = false
+var tmp:Int = 0
+var result:Int = 0
+for i in 0..<(c - 1) {
+    if(array[i] == array[i+1] && array[i] == 0){
+        if(finded == false){
+            tmp = 2
+            finded = true
+            if(tmp > result){
+                result = tmp
+            }
+        } else {
+            tmp += 1
+            if(tmp > result){
+                result = tmp
+            }
+        }
+    } else {
+        finded = false
+        tmp = 0
+    }
+}
+print(result)//5
+print(finded)
+
+
+
+
+
+
+
+
+
+var input:[String?]? = ["1001A1111"]
+var r1 = input?[0]?
+    .map({ 
+        (ch)->Int? in 
+        guard let number = Int(String.init(ch)) else {
+            return nil
+        }
+        return number
+    })
+print(r1 as Any)//Optional([1, 0, 0, 0, 1, 0, 0, 1, 0, 1])
+let array:[Int?] = r1!
+let c:Int = array.count
+var finded:Bool = false
+var tmp:Int = 0
+var result:Int = 0
+for i in 0..<(c - 1) {
+    if(array[i] == array[i+1] && array[i] == 0){
+        if(finded == false){
+            tmp = 2
+            finded = true
+            if(tmp > result){
+                result = tmp
+            }
+        } else {
+            tmp += 1
+            if(tmp > result){
+                result = tmp
+            }
+        }
+    } else {
+        finded = false
+        tmp = 0
+    }
+}
+print(result)//5
+print(finded)
+
+
+
+
+
+
+
+
+
+
+let str = "0,1,1,1,1,0,1,0,0,1,1,1,1,1,1,1,"
+var input = [str]
+let r1:[Character] = input[0].map({ $0 }).filter({ $0 > "," })
+let r2:[String] = input[0].map({ "\($0)" }).filter({ $0 > "," })
+let r3 = str.map({ $0 }).filter({ $0 > "," }) //by Inference type
+let r4:[Substring] = str.split(separator:",")
+let array:[Int] = r4.map({ 
+    (number:Substring)->Int 
+    in  
+    return Int.init(String(number))! 
+    /*
+        Int.init(String($0))!
+    */
+})
+print(type(of: array))
+print(array)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let s:Set<String> = Set<String>(arrayLiteral:"0","1","7","13","45","76","3","2","9","14","15","16","61","62","63","52","28")
+let str = "0,1,7,13,45,76,3,2,9,14,15,16,61,62,63,52,28"
+var input = [str]
+let r1:[Character] = input[0].map({ $0 }).filter({ $0 > "," })
+let r2:[String] = input[0].map({ "\($0)" }).filter({ $0 > "," })
+let r3 = str.map({ $0 }).filter({ $0 > "," }) //by Inference type
+let r4:[Substring] = str.split(separator:",")
+let r5:[Int] = r4.map({ 
+    (number:Substring)->Int 
+    in  
+    return Int.init(String(number))! 
+    /*
+        Int.init(String($0))!
+    */
+}).sorted(by:  {$0 > $1})
+print(type(of: r5))
+print(r5)
+var r6 = r5
+var r7:Void = r6.sort(by: { 
+    (n1:Int, n2:Int)->Bool
+    in
+    return n1 < n2    
+} )
+print(r6)
+
+r6.sort(by:>)
+print(r6)
+var tmp:Int  = Int.init()
+var array:[Int] = r6
+for i in 0..<array.count {
+    if(i==0){
+        
+    } else {
+        for j in 0..<i {
+            if(array[i]<array[j]){
+                tmp = array[i]
+                array[i] = array[j]
+                array[j] = tmp
+            }
+        }
+    }
+}
+print(array)
+for _ in [..<(array.count)]{
+    
+}
+for i in 0..<(array.count-1) {
+    if ( ((array[i])+1) != (array[i+1])) {
+        let smallestNumber = (array[i])+1//local scope
+        print(smallestNumber)
+        break
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#import <Foundation/Foundation.h>
+
+int main (int argc, const char * argv[])
+{
+        NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+        NSLog (@"Hello World");
+        
+        //NSMutableArray *input = [NSMutableArray arrayWithObjects:@"1111", @"2222", @"3333", @"4444", nil];
+        NSMutableArray *input = [NSMutableArray arrayWithObjects:@"1010", @"0011", @"0100", @"1000", nil];
+        NSMutableArray *array = [[NSMutableArray alloc] init];
+        int howManyIslands = 0;
+        int count = [input count];
+        int i,j;
+        for(i=0; i<count; i++){
+            NSLog(@"%@", [input objectAtIndex:i]);
+            NSMutableArray *r1 = [[NSMutableArray alloc] init];
+            for(j=0;j<[[input objectAtIndex:i] length];j++){
+                NSLog(@"%c",[[input objectAtIndex:i] characterAtIndex:j]);
+                NSString* number = [NSString stringWithFormat:@"%c" , [[input objectAtIndex:i] characterAtIndex:j]];
+                [r1 addObject:number];
+            }
+            [array addObject: r1];
+        }
+        NSLog(@"array: %@", array);
+        NSLog(@"array: %i", [[[array objectAtIndex:0] objectAtIndex:3] intValue]);
+        
+        for(i=0; i<[array count];i = i+1){
+            for(j=0; j<[[array objectAtIndex:i] count]; j=j+1){
+                if(i==0){
+                    if(j==0){
+                        if([[[array objectAtIndex:i] objectAtIndex:j] intValue] == 1){
+                            howManyIslands += 1;
+                        }
+                    } else {
+                        if([[[array objectAtIndex:i] objectAtIndex:j] intValue] == 1 && [[[array objectAtIndex:i] objectAtIndex:(j-1)] intValue] == 0){
+                            howManyIslands += 1;
+                        }
+                    }
+                } else {
+                    if(j==0){
+                        if([[[array objectAtIndex:i] objectAtIndex:j] intValue] == 1 && [[[array objectAtIndex:(i-1)] objectAtIndex:j] intValue] == 0){
+                            howManyIslands += 1;
+                        }
+                    } else {
+                        if([[[array objectAtIndex:i] objectAtIndex:j] intValue] == 1 && [[[array objectAtIndex:(i-1)] objectAtIndex:j] intValue] == 0 && [[[array objectAtIndex:i] objectAtIndex:(j-1)] intValue] == 0){
+                            howManyIslands += 1;
+                        }
+                        if([[[array objectAtIndex:i] objectAtIndex:j] intValue] == 1 && [[[array objectAtIndex:(i-1)] objectAtIndex:j] intValue] == 1 && [[[array objectAtIndex:i] objectAtIndex:(j-1)] intValue] == 1 && [[[array objectAtIndex:(i-1)] objectAtIndex:(j-1)] intValue] == 0){
+                            howManyIslands -= 1;
+                        }
+                    }
+                }
+            }
+        }
+        NSLog(@"%i", howManyIslands);
+        NSLog(@"%@", @"");
+        
+        int e1 = f();
+        int e2 = f();
+        NSLog(@"%i", e2);
+        
+        int e3 = g();
+        int e4 = g();
+        NSLog(@"%i", e4);
+        
+        [pool drain];
+        return 0;
+}
+
+int f(void)
+{
+    int i = 5;
+    i += 10;
+    return i;
+}
+
+int g(void)
+{
+    static int i = 5;
+    i += 10;
+    return i;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
