@@ -67,11 +67,11 @@ https://phprestjson.000webhostapp.com/assets/SelfIntro.mp4
 <br>https://enghamilton.github.io/elemaq2.github.io/hypodgears-epicycloidal.html
 <video id="video"  height="150px" controlsList="nodownload" muted playsinline autoplay controls src="https://youtu.be/LI9J96rkt5U"></video>
 
-https://youtu.be/LI9J96rkt5U
+<br>https://youtu.be/LI9J96rkt5U
 <img src="https://raw.githubusercontent.com/enghamilton/enghamilton/refs/heads/main/cv-2023-youtubbe-english-version-000.jpg">
-https://youtu.be/4INp5Wu9AvE
+<br>https://youtu.be/4INp5Wu9AvE
 <img src="https://raw.githubusercontent.com/enghamilton/enghamilton/refs/heads/main/recording%20english%20japanese%20espanol%20version%20000.jpg">
-https://youtu.be/4INp5Wu9AvE
+<br>https://youtu.be/4INp5Wu9AvE
 <img src="https://raw.githubusercontent.com/enghamilton/enghamilton/refs/heads/main/recording-vagas-com-version-000.jpg">
 
 
