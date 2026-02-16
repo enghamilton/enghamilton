@@ -66,7 +66,9 @@ https://phprestjson.000webhostapp.com/assets/SelfIntro.mp4
 <br>https://enghamilton.github.io/elemaq2.github.io/elemaq2_P1_Parte-A_exercicio_resolvido_19ponto4.html
 <br>https://enghamilton.github.io/elemaq2.github.io/hypodgears-epicycloidal.html
 <video id="video"  height="150px" controlsList="nodownload" muted playsinline autoplay controls src="https://youtu.be/LI9J96rkt5U"></video>
+<img src="https://raw.githubusercontent.com/enghamilton/enghamilton/refs/heads/main/cv-2023-youtubbe-english-version-000.jpg">
 <br>https://youtu.be/LI9J96rkt5U
+<img src="https://raw.githubusercontent.com/enghamilton/enghamilton/refs/heads/main/recording%20english%20japanese%20espanol%20version%20000.jpg">
 <br>https://youtu.be/ea7wWBUmmXQ
 
 <!--
